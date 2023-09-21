@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="agh.ii.prinjava.lab01.lst01_01.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-21T20:41:56" hostname="ALEX-LAPTOP" time="0.029">
+  <properties/>
+  <testcase name="testIsEncapsulated()" classname="agh.ii.prinjava.lab01.lst01_01.MainTest" time="0.029"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

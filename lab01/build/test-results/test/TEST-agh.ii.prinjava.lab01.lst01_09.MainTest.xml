@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="agh.ii.prinjava.lab01.lst01_09.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-21T20:41:56" hostname="ALEX-LAPTOP" time="0.002">
+  <properties/>
+  <testcase name="testGetI1()" classname="agh.ii.prinjava.lab01.lst01_09.MainTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
