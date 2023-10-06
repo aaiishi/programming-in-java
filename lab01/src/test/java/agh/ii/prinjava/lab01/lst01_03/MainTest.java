@@ -10,22 +10,22 @@ class MainTest {
     public void testAreaRect() {
         Rectangle rectangle = new Rectangle(5, 5); // Supposons que w = 4 et h = 5
 
-        double resultat = rectangle.area();
+        double result = rectangle.area();
 
-        assertEquals(25.0, resultat, 0.001);
+        assertEquals(25.0, result, 0.001);
     }
 
     @Test
     public void testPerimeterRect() {
         Rectangle rectangle = new Rectangle(4, 5); // Supposons que w = 4 et h = 5
 
-        double resultat = rectangle.perimeter();
+        double result = rectangle.perimeter();
 
-        assertEquals(18.0, resultat, 0.001);
+        assertEquals(18.0, result, 0.001);
     }
 
     @Test
-    public void testPerimterCircle(){
+    public void testPerimeterCircle(){
         Circle circle = new Circle(10);
         double result = circle.perimeter();
         double tolerance = 0.1;
