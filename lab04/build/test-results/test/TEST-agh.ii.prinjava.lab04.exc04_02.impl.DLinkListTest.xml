@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="agh.ii.prinjava.lab04.exc04_02.impl.DLinkListTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-10-19T19:31:25" hostname="LAPTOP" time="0.045">
+  <properties/>
+  <testcase name="whenEmptyList_removeFirst_shouldThrowException()" classname="agh.ii.prinjava.lab04.exc04_02.impl.DLinkListTest" time="0.032"/>
+  <testcase name="addLast_thenRemoveLast_elementsShouldMatch()" classname="agh.ii.prinjava.lab04.exc04_02.impl.DLinkListTest" time="0.004"/>
+  <testcase name="addFirst_thenRemoveFirst_elementsShouldMatch()" classname="agh.ii.prinjava.lab04.exc04_02.impl.DLinkListTest" time="0.002"/>
+  <testcase name="whenEmptyList_removeLast_shouldThrowException()" classname="agh.ii.prinjava.lab04.exc04_02.impl.DLinkListTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
