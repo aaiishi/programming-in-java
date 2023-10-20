@@ -13,7 +13,9 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 class MyStackDLLBImplTest {
 
-    /** The stack of integers to be tested */
+    /**
+     * The stack of integers to be tested
+     */
     private MyStack<Integer> stackOfInts;
 
     /**

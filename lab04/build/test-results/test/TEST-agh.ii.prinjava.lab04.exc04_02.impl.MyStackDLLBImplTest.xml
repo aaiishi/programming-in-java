@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="agh.ii.prinjava.lab04.exc04_02.impl.MyStackDLLBImplTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-10-19T23:46:18" hostname="ALEX-LAPTOP" time="0.043">
+  <properties/>
+  <testcase name="whenEmptyStack_peek_shouldThrowException()" classname="agh.ii.prinjava.lab04.exc04_02.impl.MyStackDLLBImplTest" time="0.029"/>
+  <testcase name="whenEmptyStack_pop_shouldThrowException()" classname="agh.ii.prinjava.lab04.exc04_02.impl.MyStackDLLBImplTest" time="0.003"/>
+  <testcase name="newStackIsEmpty()" classname="agh.ii.prinjava.lab04.exc04_02.impl.MyStackDLLBImplTest" time="0.002"/>
+  <testcase name="push_thenPop_elementsShouldMatch()" classname="agh.ii.prinjava.lab04.exc04_02.impl.MyStackDLLBImplTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
