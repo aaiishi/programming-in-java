@@ -18,6 +18,7 @@ interface PlayWithMovies {
                 .map(Movie::title)
                 .collect(Collectors.toSet());
     }
+
     /**
      * Returns the movies (only titles) in which an actor played
      */
@@ -29,6 +30,7 @@ interface PlayWithMovies {
                 .map(Movie::title)
                 .collect(Collectors.toSet());
     }
+
     /**
      * Returns the number of movies per director (as a map)
      */
@@ -151,36 +153,17 @@ interface PlayWithMovies {
      * Returns the movies (only titles) of each of the 5 most frequent actor partnerships
      */
     static Map<String, Set<String>> ex10() {
-        Map<String, Set<String>> actorPairsToMovies = new HashMap<>();
+        Set<String> topActorPairs = ex09().keySet();
 
-        List<Movie> movies = ImdbTop250.movies().orElse(Collections.emptyList());
-
-        for (Movie movie : movies) {
-            List<String> actors = movie.actors();
-            for (int i = 0; i < actors.size(); i++) {
-                for (int j = i + 1; j < actors.size(); j++) {
-                    String actor1 = actors.get(i);
-                    String actor2 = actors.get(j);
-
-                    String pair = actor1.compareTo(actor2) < 0 ? actor1 + ", " + actor2 : actor2 + ", " + actor1;
-
-                    actorPairsToMovies
-                            .computeIfAbsent(pair, k -> new HashSet<>())
-                            .add(movie.title());
-                }
-            }
-        }
-        List<String> relevantPairs = Arrays.asList(
-                "Carrie Fisher, Mark Hamill",
-                "Joe Pesci, Robert De Niro",
-                "Carrie Fisher, Harrison Ford",
-                "Harrison Ford, Mark Hamill",
-                "Christian Bale, Michael Caine"
-        );
-
-        return actorPairsToMovies.entrySet().stream()
-                .filter(entry -> relevantPairs.contains(entry.getKey()))
-                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return ImdbTop250.movies()
+                .orElse(Collections.emptyList())
+                .stream()
+                .flatMap(m -> agh.ii.prinjava.proj2.utils.Utils.orderedPairsFrom(m.actors()).stream()
+                        .filter(topActorPairs::contains)
+                        .map(pair -> new AbstractMap.SimpleEntry<>(pair, m.title())))
+                .collect(Collectors.groupingBy(
+                        Map.Entry::getKey,
+                        Collectors.mapping(Map.Entry::getValue, Collectors.toSet())
+                ));
     }
 }
-

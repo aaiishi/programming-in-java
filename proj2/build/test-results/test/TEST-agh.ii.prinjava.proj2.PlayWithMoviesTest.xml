@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="agh.ii.prinjava.proj2.PlayWithMoviesTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2023-10-28T14:54:41" hostname="LAPTOP-VOITU7BD" time="0.328">
+<testsuite name="agh.ii.prinjava.proj2.PlayWithMoviesTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2023-11-24T14:57:56" hostname="ALEX-LAPTOP" time="0.345">
   <properties/>
   <testcase name="testEx01()" classname="agh.ii.prinjava.proj2.PlayWithMoviesTest" time="0.154"/>
-  <testcase name="testEx02()" classname="agh.ii.prinjava.proj2.PlayWithMoviesTest" time="0.025"/>
-  <testcase name="testEx03()" classname="agh.ii.prinjava.proj2.PlayWithMoviesTest" time="0.033"/>
-  <testcase name="testEx04()" classname="agh.ii.prinjava.proj2.PlayWithMoviesTest" time="0.015"/>
-  <testcase name="testEx05()" classname="agh.ii.prinjava.proj2.PlayWithMoviesTest" time="0.015"/>
-  <testcase name="testEx06()" classname="agh.ii.prinjava.proj2.PlayWithMoviesTest" time="0.011"/>
-  <testcase name="testEx07()" classname="agh.ii.prinjava.proj2.PlayWithMoviesTest" time="0.01"/>
-  <testcase name="testEx08()" classname="agh.ii.prinjava.proj2.PlayWithMoviesTest" time="0.02"/>
-  <testcase name="testEx09()" classname="agh.ii.prinjava.proj2.PlayWithMoviesTest" time="0.014"/>
-  <testcase name="testEx10()" classname="agh.ii.prinjava.proj2.PlayWithMoviesTest" time="0.02"/>
+  <testcase name="testEx02()" classname="agh.ii.prinjava.proj2.PlayWithMoviesTest" time="0.028"/>
+  <testcase name="testEx03()" classname="agh.ii.prinjava.proj2.PlayWithMoviesTest" time="0.028"/>
+  <testcase name="testEx04()" classname="agh.ii.prinjava.proj2.PlayWithMoviesTest" time="0.014"/>
+  <testcase name="testEx05()" classname="agh.ii.prinjava.proj2.PlayWithMoviesTest" time="0.021"/>
+  <testcase name="testEx06()" classname="agh.ii.prinjava.proj2.PlayWithMoviesTest" time="0.009"/>
+  <testcase name="testEx07()" classname="agh.ii.prinjava.proj2.PlayWithMoviesTest" time="0.013"/>
+  <testcase name="testEx08()" classname="agh.ii.prinjava.proj2.PlayWithMoviesTest" time="0.018"/>
+  <testcase name="testEx09()" classname="agh.ii.prinjava.proj2.PlayWithMoviesTest" time="0.017"/>
+  <testcase name="testEx10()" classname="agh.ii.prinjava.proj2.PlayWithMoviesTest" time="0.026"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
